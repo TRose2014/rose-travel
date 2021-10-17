@@ -5,28 +5,36 @@ import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
 import data from '../../data.json';
 
+import Box from '@mui/material/Box';
+import Grid from '@mui/material/Grid';
+
+
 export default function ActionAreaCard() {
   return (
-    <div>
+    <div style={{"display": "flex"}}>
       {data.map((item) => (
         <>
-          <Card sx={{ maxWidth: 345 }}>
-              <CardActionArea>
-                <CardMedia
-                  component="img"
-                  height="140"
-                  src={item.imageurl}
-                  alt={item.name}/>
-                <CardContent>
-                  <Typography gutterBottom variant="h5" component="div">
-                  {item.name}
-                  </Typography>
-                  <Typography variant="body2" color="text.secondary">
-                  {item.description}
-                  </Typography>
-                </CardContent>
-              </CardActionArea>
-          </Card>
+          <Box sx={{ flexGrow: 2 }}>
+            <Grid container direction="row" justifyContent="space-around" alignItems="center">
+              <Card sx={{ maxWidth: 345 }}>
+                <CardActionArea>
+                  <CardMedia
+                    component="img"
+                    height="140"
+                    src={item.imageurl}
+                    alt={item.name}/>
+                  <CardContent>
+                    <Typography gutterBottom variant="h5" component="div">
+                    {item.name}
+                    </Typography>
+                    <Typography variant="body2" color="text.secondary">
+                    {item.description}
+                    </Typography>
+                  </CardContent>
+                </CardActionArea>
+              </Card>
+            </Grid>
+          </Box>
         </>
 
       ))}

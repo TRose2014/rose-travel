@@ -1,18 +1,16 @@
+import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
-import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
-import data from '../../data.json';
-
-import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
-
+import Typography from '@mui/material/Typography';
+import data from '../../data.json';
 
 export default function ActionAreaCard() {
   return (
     <div style={{"display": "flex"}}>
-      {data.map((item) => (
+      {data[0].map((item) => (
         <>
           <Box sx={{ flexGrow: 2 }}>
             <Grid container direction="row" justifyContent="space-around" alignItems="center">

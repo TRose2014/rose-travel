@@ -1,3 +1,7 @@
+* {
+  font-family: 'Merienda', cursive !important;
+}
+
 .cardContainer {
   display: grid;
   grid-template-rows: auto auto auto;

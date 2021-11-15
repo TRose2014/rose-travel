@@ -1,0 +1,40 @@
+article {
+  grid-template-columns: 3fr 1fr;
+  display: inline-grid;
+  padding-top: 5%;
+}
+
+div {
+  display: grid;
+}
+
+/* section {
+  outline: black solid 5px;
+} */
+
+h1, span {
+  font-size: 5em;
+}
+
+.japanMap {
+  width: 50%;
+  height: 100%;
+}
+
+.rose {
+  color: red;
+  display: inline;
+}
+
+span {
+  display: none;
+  white-space: pre-wrap;
+}
+
+section a {
+  text-decoration: none;
+}
+
+section:hover span {
+  display: inline;
+}

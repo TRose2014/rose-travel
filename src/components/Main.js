@@ -1,7 +1,7 @@
 import { Switch, Route } from 'react-router-dom';
 import Card from './Card/Card'
 import HomePage from './HomePage/HomePage'
-import data from '../data.json';
+import data from '../data/data.json';
 
 function Main() {
   return (

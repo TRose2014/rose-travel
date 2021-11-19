@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 
 import './HomePage.css';
-import Japan from '../../japan.jpg';
+import Japan from '../../assets/japan.jpg';
 
 export default function HomePage(){
   return (
@@ -20,7 +20,7 @@ export default function HomePage(){
             <span className="rose">S</span><span>NACKS</span><br />
           </Link>
 
-          <Link to="/snacks">          
+          <Link to="/eats">          
             <span className="rose">E</span><span>ATS</span><br />
           </Link>
         </section>

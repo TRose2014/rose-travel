@@ -1,7 +1,8 @@
 article {
-  grid-template-columns: 3fr 1fr;
+  /* grid-template-columns: 3fr 1fr; */
+  grid-template-columns: 50% 20%;
   display: inline-grid;
-  padding-top: 5%;
+  padding-bottom: 3%;
 }
 
 div {
@@ -19,6 +20,7 @@ h1, span {
 .japanMap {
   width: 50%;
   height: 100%;
+  mix-blend-mode: multiply;
 }
 
 .rose {
@@ -29,6 +31,10 @@ h1, span {
 span {
   display: none;
   white-space: pre-wrap;
+}
+
+section {
+  padding-left: 20%;
 }
 
 section a {

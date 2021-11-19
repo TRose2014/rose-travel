@@ -1,20 +1,13 @@
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+    min-height: 100vh;
+    /* overflow-y: hidden; */
+}
+
 .App {
+  background-image: linear-gradient(#D16BA5, #86A8E7, #5FFBF1);
   text-align: center;
-  margin: 0 3%;
+  /* margin: 0 3%; */
   font-family: 'Merienda', cursive;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
 }

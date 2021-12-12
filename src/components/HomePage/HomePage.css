@@ -1,17 +1,9 @@
 article {
-  /* grid-template-columns: 3fr 1fr; */
   grid-template-columns: 50% 20%;
   display: inline-grid;
   padding-bottom: 3%;
+  padding-top: 3%;
 }
-
-div {
-  display: grid;
-}
-
-/* section {
-  outline: black solid 5px;
-} */
 
 h1, span {
   font-size: 5em;

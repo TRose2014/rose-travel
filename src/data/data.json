@@ -3,14 +3,14 @@
     {
       "name": "Bireleys Mango Drink",
       "scores": "T-4.5 D-3.5 A-DL",
-      "imageurl": "soft-drink.png",
+      "imageurl": "Bireleys-Mango-Drink.jpeg",
       "description": "Bireley's is a brand of non-carbonated, fruit-flavored soft drinks currently owned by Asahi in Japan.",
       "location": "Vending Machine"
       },
       {
       "name": "Fanta Grape",
       "scores": "T-3.5 D-3 A-L",
-      "imageurl": "soft-drink.png",
+      "imageurl": "fanta-grape.jpeg",
       "description": "Fanta Grape is a mellow grape flavored carbonated drink containing vitamin B6.",
       "location": "Vending Machine"
       },
@@ -62,7 +62,14 @@
       "imageurl": "soft-drink.png",
       "description": "Dodekamin is a popular energy soda in Japan, similar to Lifeguard and Dekavita C",
       "location": "Vending Machine"
-      }
+      },
+      {
+        "name": "Fanta Okinawa Shikuwasa",
+        "scores": "T-5 D-5 A-L",
+        "imageurl": "FantaOkinawaShikuwasa.jpeg",
+        "description": "This Fanta flavor is fueled by the Shikuwasa fruit, which is a green, tangy, lemon-like citrus fruit grown in the southern Japanese tropical island of Okinawa. This exotic soda flavor truly speaks for all things tropical!",
+        "location": "Vending Machine"
+        }
   ],
   [
     {"name": "test"}

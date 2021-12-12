@@ -8,12 +8,16 @@
   grid-template-columns: auto auto auto;
 }
 
-.css-46bh2p-MuiCardContent-root:last-child {
-  display: none;
+.nodisplay {
+  display: none !important;
 }
-.css-iq4gde-MuiGrid-root:hover .css-46bh2p-MuiCardContent-root:last-child {
+
+.css-46bh2p-MuiCardContent-root:last-child {
   display: inline;
 }
+/* .css-iq4gde-MuiGrid-root:hover .css-46bh2p-MuiCardContent-root:last-child {
+  display: inline;
+} */
 
 .MuiBox-root {
   margin: 3% 3%;
@@ -26,3 +30,6 @@
 img {
   width: auto !important;
 }
+
+
+/*For hover uncomment above code and comment out displayInfo in card*/

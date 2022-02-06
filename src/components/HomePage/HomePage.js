@@ -1,12 +1,12 @@
 import { Link } from 'react-router-dom';
 
 import './HomePage.css';
-import Japan from '../../assets/japan.jpg';
+// import Japan from '../../assets/japan.jpg';
+// import OKINAWA from '../../assets/OKINAWA.jpg';
 
 export default function HomePage(){
   return (
     <div>
-      <article>
         <section>
           <Link to="/drinks">          
             <span>D</span><span className="rose">R</span><span>INKS</span><br />
@@ -24,10 +24,9 @@ export default function HomePage(){
             <span className="rose">E</span><span>ATS</span><br />
           </Link>
         </section>
-        <section>
+        {/* <section>
         <img src={Japan} alt="Map of Japan" className="japanMap"/>
-        </section>
-      </article>
+        </section> */}
     </div>
   )
 }

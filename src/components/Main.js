@@ -8,8 +8,8 @@ function Main() {
     <main>
       <Switch>
         <Route exact path="/" component={HomePage} />
-        <Route path="/snacks" component={() => (<Card data={data[0]} />)} />
-        <Route path="/drinks" component={() => (<Card data={data[1]} />)} />
+        <Route path="/snacks" component={() => (<Card data={data[1]} />)} />
+        <Route path="/drinks" component={() => (<Card data={data[0]} />)} />
       </Switch>
     </main>
   );

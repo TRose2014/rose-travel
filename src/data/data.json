@@ -72,6 +72,11 @@
         }
   ],
   [
-    {"name": "test"}
+    { "name": "Test",
+      "scores": "T-4.5 D-3.5 A-DL",
+      "imageurl": "",
+      "description": "Just a test",
+      "location": "Testing Vending Machine"
+    }
   ]
 ]

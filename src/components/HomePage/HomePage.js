@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import './HomePage.css';
 // import Japan from '../../assets/japan.jpg';
 // import OKINAWA from '../../assets/OKINAWA.jpg';
+import Japan from '../../assets/fuji-japan.svg';
 
 export default function HomePage(){
   return (

@@ -17,7 +17,7 @@
       {
       "name": "Q00 Apple Drink",
       "scores": "T-5 D-3 A-RL",
-      "imageurl": "soft-drink.png",
+      "imageurl": "Q00-Apple-Drink.jpeg",
       "description": "The fruit juice brand \"Qoo\" was released in 1999, and its name comes from the sound of satisfaction a grown-up makes when they down a glass of beer. In September 2012 Qoo became part of the Minute Maid brand.",
       "location": "Vending Machine"
       },
@@ -31,35 +31,35 @@
       {
       "name": "Gabunomi Melon Cream Soda",
       "scores": "T-4 D-5 A-L",
-      "imageurl": "soft-drink.png",
+      "imageurl": "Gabunomi-Melon-Cream-Soda.jpg",
       "description": "This outstanding limited edition soda release by Pokka Sapporo gives you an accurate melon cream soda flavor. It is cloudy green in color since it contains condensed milk, which gives it creamy taste.",
       "location": "Vending Machine"
       },
       {
       "name": "Pokka Lemon Tea",
       "scores": "T-3.5 D-DT A-L",
-      "imageurl": "soft-drink.png",
+      "imageurl": "Pokka-Lemon-Tea.jpeg",
       "description": "Pokka Ice Lemon Tea is a refreshing blend of 100% real brewed premium black tea infused with real lemon juice.",
       "location": "Vending Machine"
       },
       {
       "name": "Aromax Cafe Au Lait",
       "scores": "T-DT D-4 A-DT",
-      "imageurl": "soft-drink.png",
+      "imageurl": "Aromax-Cafe-Au-Lait.jpeg",
       "description": "Pokka canned coffee",
       "location": "Vending Machine"
       },
       {
       "name": "Georgia Ice Cocoa",
       "scores": "T-2 D-2.5 A-DL",
-      "imageurl": "soft-drink.png",
+      "imageurl": "Georgia-Ice-Cocoa.jpeg",
       "description": "Made with 100% dutch cocoa and 100% hokkaido cream. Scored low due to a watery taste.",
       "location": "Vending Machine"
       },
       {
       "name": "Asahi Dodekamin Energy Soda",
       "scores": "T-DT D-4.5 A-DT",
-      "imageurl": "soft-drink.png",
+      "imageurl": "Asahi-Dodekamin-Energy-Soda.jpeg",
       "description": "Dodekamin is a popular energy soda in Japan, similar to Lifeguard and Dekavita C",
       "location": "Vending Machine"
       },
@@ -72,11 +72,34 @@
         }
   ],
   [
-    { "name": "Test",
+    { "name": "Morinaga Pino Ice Cream",
+      "scores": "T-N/A D-3.5 A-DL",
+      "imageurl": "Morinaga-Pino.jpg",
+      "description": "",
+      "location": "Convenience and Grocery Stores"
+    },
+    { "name": "Akagi Garigari Kun Soda Popsicle",
       "scores": "T-4.5 D-3.5 A-DL",
-      "imageurl": "",
-      "description": "Just a test",
-      "location": "Testing Vending Machine"
+      "imageurl": "Akagi-Garigari-Kun-Soda.png",
+      "description": "",
+      "location": "Convenience and Grocery Stores"
+    },
+    { "name": "Morinaga Choco Monaka Jumbo",
+      "scores": "T-N/A D-3.5 A-DL",
+      "imageurl": "Morinaga-Choco-Monaka-Jumbo.png",
+      "description": "",
+      "location": "Convenience and Grocery Stores"
+    },
+    { "name": "Glico Giant Cone Chocolate",
+      "scores": "T-N/A D-3.5 A-DL",
+      "imageurl": "Glico-Giant-Cone-Chocolate.jpeg",
+      "description": "",
+      "location": "Convenience and Grocery Stores"
+    }
+  ],
+  [
+    {
+
     }
   ]
 ]

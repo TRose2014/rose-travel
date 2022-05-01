@@ -1,7 +1,3 @@
-* {
-  /* border: 1px solid black; */
-}
-
 body {
     max-width: 100%;
     overflow-x: hidden;
@@ -11,11 +7,6 @@ body {
 }
 
 .App {
-  /* background-image: linear-gradient(#D16BA5, #86A8E7, #5FFBF1); */
-  background-image: url('./assets/fuji-japan.svg');
-  background-repeat: no-repeat;
-  background-size: contain, cover;
-  background-position: center;
   text-align: center;
   background-color: #FFFFFF; /* Used if the image is unavailable */
   font-family: 'Merienda', cursive;

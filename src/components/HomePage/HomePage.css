@@ -9,15 +9,18 @@ h1, span {
   font-size: 5em;
 }
 
-.japanMap {
-  width: 50%;
-  height: 100%;
-  mix-blend-mode: multiply;
+#test {
+  background-image: url('../../assets/fuji-japan.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 800px;
 }
-
 .rose {
   color: red;
   display: inline;
+  margin-top: 10%;
 }
 
 span {
@@ -25,8 +28,8 @@ span {
   white-space: pre-wrap;
 }
 
-section {
-  /* display: flex; */
+#linkContainer {
+  margin-top: 10%;
 }
 
 section a {

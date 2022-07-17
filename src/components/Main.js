@@ -1,7 +1,7 @@
 import { Switch, Route } from 'react-router-dom';
 import ItemCard from './Card/Card';
 import HomePage from './HomePage/HomePage';
-import TopFive from './TopFive/TopFive'
+import TopFive from './TopFive/TopFive';
 import data from '../data/data.json';
 
 function Main() {

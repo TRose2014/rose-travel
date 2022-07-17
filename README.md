@@ -71,4 +71,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 [Google Font Used](https://fonts.google.com/specimen/Merienda#standard-styles)
 
-<div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+<div>Icons made by 
+  <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+
+  <a href='https://www.freepik.com/vectors/snack-food'>Snack food vector created by pch.vector - www.freepik.com</a>
+  
+</div>

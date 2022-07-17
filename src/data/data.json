@@ -1,0 +1,162 @@
+[
+  [
+    {
+      "name": "Bireleys Mango Drink",
+      "scores": [{
+        "Mommy": 4.5,
+        "Daddy": 3.5,
+        "Ava": 0
+      }],
+      "imageurl": "Bireleys-Mango-Drink.jpeg",
+      "description": "Bireley's is a brand of non-carbonated, fruit-flavored soft drinks currently owned by Asahi in Japan.",
+      "location": "Vending Machine"
+      },
+      {
+        "name": "Fanta Grape",
+        "scores": [{
+          "Mommy": 3.5,
+          "Daddy": 3,
+          "Ava": 3
+        }],
+        "imageurl": "fanta-grape.jpeg",
+        "description": "Fanta Grape is a mellow grape flavored carbonated drink containing vitamin B6.",
+        "location": "Vending Machine"
+      },
+      {
+        "name": "Q00 Apple Drink",
+        "scores": [{
+          "Mommy": 5,
+          "Daddy": 3,
+          "Ava": 5
+        }],
+        "imageurl": "Q00-Apple-Drink.jpeg",
+        "description": "The fruit juice brand \"Qoo\" was released in 1999, and its name comes from the sound of satisfaction a grown-up makes when they down a glass of beer. In September 2012 Qoo became part of the Minute Maid brand.",
+        "location": "Vending Machine"
+      },
+      {
+        "name": "Peach Drink",
+        "scores": [{
+          "Mommy": 2,
+          "Daddy": 2,
+          "Ava": 0
+        }],
+        "imageurl": "soft-drink.png",
+        "description": " ",
+        "location": "Vending Machine"
+      },
+      {
+        "name": "Gabunomi Melon Cream Soda",
+        "scores": [{
+          "Mommy": 4,
+          "Daddy": 5,
+          "Ava": 3
+        }],
+        "imageurl": "Gabunomi-Melon-Cream-Soda.jpg",
+        "description": "This outstanding limited edition soda release by Pokka Sapporo gives you an accurate melon cream soda flavor. It is cloudy green in color since it contains condensed milk, which gives it creamy taste.",
+        "location": "Vending Machine"
+      },
+      {
+        "name": "Pokka Lemon Tea",
+        "scores": [{
+          "Mommy": 3.5,
+          "Daddy": 0,
+          "Ava": 3
+        }],
+        "imageurl": "Pokka-Lemon-Tea.jpeg",
+        "description": "Pokka Ice Lemon Tea is a refreshing blend of 100% real brewed premium black tea infused with real lemon juice.",
+        "location": "Vending Machine"
+      },
+      {
+        "name": "Aromax Cafe Au Lait",
+        "scores": [{
+          "Mommy": 0,
+          "Daddy": 4,
+          "Ava": 0
+        }],
+        "imageurl": "Aromax-Cafe-Au-Lait.jpeg",
+        "description": "Pokka canned coffee",
+        "location": "Vending Machine"
+      },
+      {
+        "name": "Georgia Ice Cocoa",
+        "scores": [{
+          "Mommy": 2,
+          "Daddy": 2.5,
+          "Ava": 0
+        }],
+        "imageurl": "Georgia-Ice-Cocoa.jpeg",
+        "description": "Made with 100% dutch cocoa and 100% hokkaido cream. Scored low due to a watery taste.",
+        "location": "Vending Machine"
+      },
+      {
+        "name": "Asahi Dodekamin Energy Soda",
+        "scores": [{
+          "Mommy": 0,
+          "Daddy": 4.5,
+          "Ava": 0
+        }],
+        "imageurl": "Asahi-Dodekamin-Energy-Soda.jpeg",
+        "description": "Dodekamin is a popular energy soda in Japan, similar to Lifeguard and Dekavita C",
+        "location": "Vending Machine"
+      },
+      {
+        "name": "Fanta Okinawa Shikuwasa",
+        "scores": [{
+          "Mommy": 5,
+          "Daddy": 5,
+          "Ava": 3
+        }],
+        "imageurl": "FantaOkinawaShikuwasa.jpeg",
+        "description": "This Fanta flavor is fueled by the Shikuwasa fruit, which is a green, tangy, lemon-like citrus fruit grown in the southern Japanese tropical island of Okinawa. This exotic soda flavor truly speaks for all things tropical!",
+        "location": "Vending Machine"
+      }
+  ],
+  [
+    { 
+      "name": "Morinaga Pino Ice Cream",
+      "scores": [{
+        "Mommy": 0,
+        "Daddy": 3.5,
+        "Ava": 5
+      }],
+      "imageurl": "Morinaga-Pino.jpg",
+      "description": "",
+      "location": "Convenience and Grocery Stores"
+    },
+    { 
+      "name": "Akagi Garigari Kun Soda Popsicle",
+      "scores": [{
+        "Mommy": 4.5,
+        "Daddy": 3.5,
+        "Ava": 5
+      }],
+      "imageurl": "Akagi-Garigari-Kun-Soda.png",
+      "description": "",
+      "location": "Convenience and Grocery Stores"
+    },
+    { 
+      "name": "Morinaga Choco Monaka Jumbo",
+      "scores": [{
+        "Mommy": 0,
+        "Daddy": 3.5,
+        "Ava": 0
+      }],
+      "imageurl": "Morinaga-Choco-Monaka-Jumbo.png",
+      "description": "",
+      "location": "Convenience and Grocery Stores"
+    },
+    { 
+      "name": "Glico Giant Cone Chocolate",
+      "scores": [{
+        "Mommy": 0,
+        "Daddy": 3.5,
+        "Ava": 0
+      }],
+      "imageurl": "Glico-Giant-Cone-Chocolate.jpeg",
+      "description": "",
+      "location": "Convenience and Grocery Stores"
+    }
+  ],
+  [
+  ]
+]

@@ -8,10 +8,11 @@
   grid-template-columns: auto auto auto;
 }
 
-.css-46bh2p-MuiCardContent-root:last-child {
-  display: none;
+.nodisplay {
+  display: none !important;
 }
-.css-iq4gde-MuiGrid-root:hover .css-46bh2p-MuiCardContent-root:last-child {
+
+.css-46bh2p-MuiCardContent-root:last-child {
   display: inline;
 }
 
@@ -20,9 +21,12 @@
 }
 
 .css-1ri6ub7-MuiPaper-root-MuiCard-root {
-  min-width: 100%;
+  background-color: #c4dfe8 !important;
+  width: 100%;
 }
 
-img {
+.css-o69gx8-MuiCardMedia-root {
+  display: initial !important;
   width: auto !important;
+  max-height: 10em;
 }

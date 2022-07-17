@@ -1,4 +1,5 @@
 import './TopFive.css';
+import ItemCard from '../Card/Card';
 import data from '../../data/data.json'
 
 export default function TopFive() {
@@ -8,7 +9,9 @@ export default function TopFive() {
 
     const highSnacks = data[1].filter(el => el.scores.some(person => person[name] > 4));
 
+
     const faves = [...highDrinks, ...highSnacks];
+
 
     return faves;
   }
@@ -16,24 +19,16 @@ export default function TopFive() {
   const topFiveGrid = (name) => {
     const personFaves = getFaves(name);
     console.log('personFaves', personFaves)
+    console.log('personFaves2', typeof(personFaves))
     return (
-      <div id="topFiveGrid">
-      <p>{name}:</p>
-      {personFaves.map((item, i) => (
-        <div key={i}>
-          <p>{item.name}</p>
-          <p>{item.description}</p>
-          <img src={item.imageurl} alt={item.name} />
-        </div>
-      ))}
-    </div>
+      ItemCard(personFaves)
     )
   }
   return (
     <div>      
-      {topFiveGrid('Daddy')}
-      {topFiveGrid('Mommy')}
-      {topFiveGrid('Ava')}
+      <h1>Daddy:</h1> {topFiveGrid('Daddy')}
+      <h1>Mommy:</h1> {topFiveGrid('Mommy')}
+      <h1>Ava:</h1> {topFiveGrid('Ava')}
     </div>
 
   )

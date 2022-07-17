@@ -15,17 +15,17 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import defaultImage from '../../assets/snacks-default.jpg'
 import './Card.css'
 
-export default function ItemCard({data}) {
+export default function ItemCard(data) {
 
+  const result = data.data ? data.data : data
   const [expandedId, setExpandedId] = useState(-1);
-
   const handleExpandClick = (i) => {
     setExpandedId(expandedId === i ? -1 : i);
   };
 
   return (
     <div className="cardContainer">
-      {data.map((item, i) => (
+      {result.map((item, i) => (
         <Box sx={{ flexGrow: 2 }} key={uuidv4()}>
           <Grid container direction="row" justifyContent="space-around" alignItems="center">
             <Card sx={{ maxWidth: 345 }}>

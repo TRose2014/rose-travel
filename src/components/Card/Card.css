@@ -8,9 +8,10 @@
   grid-template-columns: auto auto auto;
 }
 
+/* px fits description but don't like collapse. em looks great but can't read all description */
 .cardContainer {
-  /* width: 320px; */
-  /* height: 500px; */
+  /* height: 450px; */ 
+  height: 20em;
 }
 
 .nodisplay {
@@ -41,7 +42,3 @@
   flex-direction: column;
   justify-content: space-between;
 }
-
-/* .MuiCardContent-root {
-  
-} */

@@ -9,9 +9,8 @@
 }
 
 .cardContainer {
-  max-width: 100% !important;
-  height: auto !important;
-
+  /* width: 320px; */
+  /* height: 500px; */
 }
 
 .nodisplay {
@@ -36,3 +35,13 @@
   width: auto !important;
   max-height: 10em;
 }
+
+.MuiCard-root{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* .MuiCardContent-root {
+  
+} */

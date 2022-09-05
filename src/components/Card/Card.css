@@ -2,10 +2,16 @@
   font-family: 'Merienda', cursive !important;
 }
 
-.cardContainer {
+.cardGrid {
   display: grid;
   grid-template-rows: auto auto auto;
   grid-template-columns: auto auto auto;
+}
+
+.cardContainer {
+  max-width: 100% !important;
+  height: auto !important;
+
 }
 
 .nodisplay {

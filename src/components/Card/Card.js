@@ -23,11 +23,11 @@ export default function ItemCard(data) {
   };
 
   return (
-    <div className="cardContainer">
+    <div className="cardGrid">
       {result.map((item, i) => (
         <Box sx={{ flexGrow: 2 }} key={uuidv4()}>
           <Grid container direction="row" justifyContent="space-around" alignItems="center">
-            <Card sx={{ maxWidth: 345 }}>
+            <Card sx={{ maxWidth: 345 }} className="cardContainer">
               <CardHeader
                 title={item.name}
               />

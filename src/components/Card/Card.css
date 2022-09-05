@@ -40,5 +40,13 @@
 .MuiCard-root{
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
+}
+
+.css-185gdzj-MuiCardHeader-root {
+    background-color: whitesmoke;
+    width: 70%;
+    align-self: center;
+    border-radius: 10%;
+    margin-bottom: 5%;
 }

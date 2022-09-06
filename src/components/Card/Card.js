@@ -37,7 +37,7 @@ export default function ItemCard(data) {
                 image={item.imageurl ? item.imageurl : defaultImage}
                 alt={item.name}
               />
-              {/* <CardActions disableSpacing>
+              <CardActions disableSpacing>
                 <IconButton
                   onClick={() => handleExpandClick(i)}
                   aria-expanded={expandedId === i}
@@ -53,7 +53,7 @@ export default function ItemCard(data) {
                     {item.description}
                   </Typography>
                 </CardContent>
-              </Collapse> */}
+              </Collapse>
             </Card>
           </Grid>
         </Box>

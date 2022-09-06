@@ -10,8 +10,8 @@
 
 /* px fits description but don't like collapse. em looks great but can't read all description */
 .cardContainer {
-  /* height: 450px; */ 
-  height: 20em;
+  height: 450px; 
+  /* height: 20em; */
 }
 
 .nodisplay {

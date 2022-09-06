@@ -2,10 +2,16 @@
   font-family: 'Merienda', cursive !important;
 }
 
-.cardContainer {
+.cardGrid {
   display: grid;
   grid-template-rows: auto auto auto;
   grid-template-columns: auto auto auto;
+}
+
+/* px fits description but don't like collapse. em looks great but can't read all description */
+.cardContainer {
+  /* height: 450px; */ 
+  height: 20em;
 }
 
 .nodisplay {
@@ -29,4 +35,18 @@
   display: initial !important;
   width: auto !important;
   max-height: 10em;
+}
+
+.MuiCard-root{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.css-185gdzj-MuiCardHeader-root {
+    background-color: whitesmoke;
+    width: 70%;
+    align-self: center;
+    border-radius: 10%;
+    margin-bottom: 5%;
 }

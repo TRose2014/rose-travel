@@ -8,10 +8,11 @@
   grid-template-columns: auto auto auto;
 }
 
-/* px fits description but don't like collapse. em looks great but can't read all description */
+
 .cardContainer {
-  /* height: 450px; */ 
   height: 20em;
+  width: 100%;
+  background-color: #c4dfe8 !important;
 }
 
 .nodisplay {
@@ -24,11 +25,6 @@
 
 .MuiBox-root {
   margin: 3% 3%;
-}
-
-.css-1ri6ub7-MuiPaper-root-MuiCard-root {
-  background-color: #c4dfe8 !important;
-  width: 100%;
 }
 
 .css-o69gx8-MuiCardMedia-root {

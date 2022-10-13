@@ -155,8 +155,17 @@
       "imageurl": "Glico-Giant-Cone-Chocolate.jpeg",
       "description": "",
       "location": "Convenience and Grocery Stores"
+    },
+    { 
+      "name": "Papico Ice Cream",
+      "scores": [{
+        "Mommy": 4,
+        "Daddy": 4,
+        "Ava": 4
+      }],
+      "imageurl": "papico-ice-cream.jpeg",
+      "description": "Produced by Glico, Papico comes in the shape of two mini bottles that you have to pull apart. You then detach the top part of each of the bottle-shaped plastic and you slurp. As it thaws, it gradually becomes a shake. Flavors usually come in chocolate coffee, white sour and grape, but there usually many more seasonal, limited-time, flavors throughout the year ",
+      "location": "Convenience and Grocery Stores"
     }
-  ],
-  [
   ]
 ]

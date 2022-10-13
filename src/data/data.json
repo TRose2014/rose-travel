@@ -177,6 +177,17 @@
       "imageurl": "marunaga-passion-fruit-ice-cream.jpeg",
       "description": "A fruity ice cream with tropical fruit bits such as mango, passion fruit, and banana. Also has pineapple pulp and cranberry pulp.",
       "location": "Convenience and Grocery Stores"
+    },
+    { 
+      "name": "Imuraya Apple Pie Ice Cream",
+      "scores": [{
+        "Mommy": 4,
+        "Daddy": 4,
+        "Ava": 4
+      }],
+      "imageurl": "imuraya-apple-pie-ice-cream.jpeg",
+      "description": "An ice cream that tastes exactly like an apple pie with plenty of apple filling.",
+      "location": "Convenience and Grocery Stores"
     }
   ]
 ]
